@@ -1,0 +1,6 @@
+
+C:\Users\Roman\Documents\Rails\sample_app>bundle exec rspec spec/ 
+............
+
+Finished in 7.08 seconds
+12 examples, 0 failures
