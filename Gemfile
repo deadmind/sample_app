@@ -22,7 +22,7 @@ gem 'rails', '3.0.7'
  gem 'nokogiri'
  gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
-
+gem 'gravatar_image_tag', '1.0.0.pre2'
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
@@ -37,5 +37,6 @@ end
 group :test do
 	gem 'rspec', '2.5.0'
 	gem 'webrat'
+	gem 'factory_girl_rails', '1.0'
 end
 
