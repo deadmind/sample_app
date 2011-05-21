@@ -101,6 +101,11 @@ describe UsersController do
         response.should redirect_to(assigns(:user))
       end
 
+      it "should sign in new user" do
+        post :create, :user => @attr
+        controller.should be_signed_in
+      end
+
     end
   end
 end
